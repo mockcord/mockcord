@@ -19,7 +19,7 @@ it sounds like this **only** applies to API recreations for production use. \
 For this reason Mockcord has a few limitations set in place to make it impossible to use in production without modification of the source code.
 
 ## Limitations
-- Mockcord doesn't connect to any database and doesn't save any data; users, guilds, channels, etc only exist in RAM for the run time of the API
+- Mockcord doesn't connect to any database and doesn't save any data; users, guilds, channels, etc only exist in RAM for the run time
 - Mockcord doesn't implement any endpoints or gateway events that bots can't use (except for where it's beneficial for integration testing if a non-bot user can use it, e.g. boosting a server)
 
 ## Benefits
