@@ -1,6 +1,6 @@
 # Mockcord
 
-### Note that Mockcord is still under heavy development and is no way functional for integration testing yet.
+### Note that Mockcord is still under heavy development and is in no way functional for integration testing yet.
 
 Mockcord is a self-hostable Mock Discord backend implementation for integration testing written in TypeScript.
 
