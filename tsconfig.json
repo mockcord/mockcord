@@ -1,0 +1,36 @@
+{
+  "compileOnSave": false,
+  "ts-node": {
+    "files": true
+  },
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "esnext",
+    "moduleResolution": "node",
+    "baseUrl": ".",
+    "noImplicitAny": false,
+    "esModuleInterop": true,
+    "outDir": "dist",
+    "sourceRoot": "src",
+    "sourceMap": true,
+    "newLine": "lf",
+    "typeRoots": ["types"],
+    "lib": ["es2020"],
+    "declaration": true,
+    "pretty": false,
+    "strict": false,
+    "strictPropertyInitialization": false,
+    "types": ["node"],
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "paths": {
+      "@mockcord/constants": ["src/constants/index.ts"],
+      "@mockcord/util": ["src/util/index.ts"],
+      "@mockcord/middleware": ["src/rest/middleware/index.ts"],
+      "@mockcord/errors": ["src/rest/errors/index.ts"],
+      "@mockcord/managers": ["src/managers/index.ts"],
+      "@mockcord/structures": ["src/structures/index.ts"]
+    }
+  },
+  "exclude": ["node_modules"]
+}
