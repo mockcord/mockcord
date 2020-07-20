@@ -18,7 +18,7 @@ export class Rest {
   }
 
   public start() {
-    const port = 5000;
+    const port = process.env.API_PORT || 5000;
 
     this.app.use(bodyParser.json());
     this.app.use(morgan("dev"));

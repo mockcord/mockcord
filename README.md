@@ -24,7 +24,7 @@ For this reason Mockcord has a few limitations set in place to make it impossibl
 
 ## Benefits
 - Ratelimitless integration testing (rate limits can be enabled via enviroment variables though)
-- Ability to test with endpoints that most developers normally can't play around with since they require a lot of server boosts (e.g. publishing/crossposting messages from a news channel)
+- Ability to test with endpoints that most developers normally can't play around with since they require specific specific guild features (e.g. publishing/crossposting messages from a news channel)
 
 ## Goals
 - Hassle-free Discord bot integration testing
